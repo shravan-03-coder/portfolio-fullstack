@@ -1,4 +1,4 @@
-import FadeIn from "../components/animations/FadeIn";
+import FadeIn from "../animations/FadeIn";
 import { useState } from "react";
 
 export default function Contact() {
@@ -7,7 +7,7 @@ export default function Contact() {
   const submitForm = async (e) => {
     e.preventDefault();
 
-   await fetch(`${https://shravans-portfolio.onrender.com}/api/contact`, {
+   await fetch("https://shravans-portfolio.onrender.com/api/contact", {
   method: "POST",
   headers: { "Content-Type": "application/json" },
   body: JSON.stringify(form),

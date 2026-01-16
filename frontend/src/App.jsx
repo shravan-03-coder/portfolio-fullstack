@@ -9,9 +9,9 @@ import Contact from "./components/sections/Contact";
 import Certifications from "./components/sections/Certifications";
 import Footer from "./components/common/Footer";
 import ProjectCard from "./components/cards/ProjectCard";
-import Fadeln from "./components/animation/Fadeln";
-import ScaleHover from "./components/animation/ScaleHover";
-import Slideln from "./components/animation/Slideln";
+import FadeIn from "./components/animations/FadeIn";
+import ScaleHover from "./components/animations/ScaleHover";
+import SlideIn from "./components/animations/SlideIn";
 
 export default function App() {
   const [dark, setDark] = useState(true);

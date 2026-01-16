@@ -1,5 +1,5 @@
-import SlideIn from "../components/animations/SlideIn";
-import ProjectCard from "../components/cards/ProjectCard";
+import SlideIn from "../animations/SlideIn";
+import ProjectCard from "../cards/ProjectCard";
 
 export default function Projects() {
   return (

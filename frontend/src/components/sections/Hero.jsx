@@ -1,7 +1,7 @@
 import FadeIn from "../animations/FadeIn";
-import Hero from "./components/Hero";
 export default function Hero() {
-  return (
+  return <section>Hero</section>;
+}
     <section className="min-h-screen flex items-center justify-center text-center px-4">
       <FadeIn>
         <h1 className="text-4xl md:text-6xl font-bold">
@@ -12,5 +12,5 @@ export default function Hero() {
         </p>
       </FadeIn>
     </section>
-  );
-}
+
+
