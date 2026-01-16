@@ -1,4 +1,4 @@
-import FadeIn from "../components/animations/FadeIn";
+import FadeIn from "../animations/FadeIn";
 import Hero from "./components/Hero";
 export default function Hero() {
   return (
